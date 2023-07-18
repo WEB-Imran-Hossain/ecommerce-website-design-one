@@ -39,12 +39,15 @@ html {
     /* color: var(--secondary-color); */
   } 
   
+  header{
+    background-color: var(--secondary-color);
+  }
 .nav-container{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background-color: var(--secondary-color);
-    margin: 5px;
+    max-width: 1400px;
+    margin: 0 auto;
 }
 
 .logo-container{
@@ -87,4 +90,5 @@ html {
     color: #000000;
     text-align: center;
     border: none;
+    cursor: pointer;
 }
